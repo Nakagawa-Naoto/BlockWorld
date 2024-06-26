@@ -71,11 +71,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Assimp.5.2.0\include;C:\Users\utt01\HAL\3\GM31\0a-Projects\ComponentFrameWorkProject\packages\directxtk_desktop_win10.2023.4.28.1\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)..\packages\directxtk_desktop_win10.2023.4.28.1\include;$(IncludePath)</IncludePath>
     <LibraryPath>c:\Assimp.5.2.0\lib\Debug;C:\Users\utt01\HAL\3\GM31\0a-Projects\ComponentFrameWorkProject\packages\directxtk_desktop_win10.2023.4.28.1\native\lib\x64\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Assimp.5.2.0\include;C:\Users\utt01\HAL\3\GM31\0a-Projects\ComponentFrameWorkProject\packages\directxtk_desktop_win10.2023.4.28.1\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)..\packages\directxtk_desktop_win10.2023.4.28.1\include;$(IncludePath)</IncludePath>
     <LibraryPath>c:\Assimp.5.2.0\lib\Release;C:\Users\utt01\HAL\3\GM31\0a-Projects\ComponentFrameWorkProject\packages\directxtk_desktop_win10.2023.4.28.1\native\lib\x64\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
