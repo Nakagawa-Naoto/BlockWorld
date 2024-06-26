@@ -1,0 +1,9 @@
+＿記録日付:2023/12/15/18:19:52＿
+<System><Log>アプリケーションコンストラクタ完了<Time:0.000010><__cdecl Application::Application(unsigned int,unsigned int):42>
+<System><Log>ウィンドウの初期化完了<Time:0.068683><bool __cdecl Application::InitApp(void):79>
+<System><Log>アプリケーションの初期化完了<Time:0.068734><void __cdecl Application::Run(void):60>
+<Scene><Log>Sceneコンストラクタ完了<Time:0.242196><__cdecl Scene::Scene(void):64>
+<Scene><Log>Sceneデストラクタ完了<Time:44.373580><__cdecl Scene::~Scene(void):69>
+<System><Log>ウィンドウの終了処理完了<Time:44.377665><void __cdecl Application::TermApp(void):92>
+<System><Log>アプリケーションの終了処理完了<Time:44.377707><void __cdecl Application::Run(void):65>
+＿実行時間:44.377727＿
