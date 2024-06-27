@@ -21,7 +21,8 @@ private:
     //=========================================================================
     // private variables.
     //=========================================================================
-    std::vector<int> p;
+    static std::vector<int> p;
+    static unsigned int seed;
 
     //=========================================================================
     // private methods
@@ -34,7 +35,6 @@ private:
 
     // 勾配ベクトルと位置ベクトルの
     double grad(int hash, double x, double y, double z);
-
 public:
     //=========================================================================
    // public variables.
@@ -50,5 +50,6 @@ public:
 
     // Compute Perlin noise at coordinates x, y, z with specific octaves and persistence
     double octaveNoise(double x, double y, double z, int octaves, double persistence);
-    
+    static void Init();
+    static void SetSeed(unsigned int seed_);
 };

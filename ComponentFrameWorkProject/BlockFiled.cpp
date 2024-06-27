@@ -181,6 +181,8 @@ inline bool BlockFiled::IsBlockSurround(const float x, const float y, const floa
 //-----------------------------------------------------------------------------
 void BlockFiled::CreateStage(void)
 {
+	
+	PerlinNoise::Init();
 	printf("地形生成開始\n");
 	printf("MapSize x:%d z:%d y:%d \n", ChunkMaxX * MaxX + MaxX, ChunkMaxY * MaxY + MaxY, ChunkMaxZ * MaxZ + MaxZ);
 	printf("ChunkNum :%d \n", ChunkMaxSize);
